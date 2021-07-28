@@ -77,7 +77,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -128,14 +128,25 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="&#8220;Deep-Learning-for-Coders&#8221;-(Fragen-1-9)">&#8220;Deep Learning for Coders&#8221; (Fragen 1-9)<a class="anchor-link" href="#&#8220;Deep-Learning-for-Coders&#8221;-(Fragen-1-9)"> </a></h1><ol>
 <li>Can we always use a random sample for a validation set? Why or why not?</li>
+<li>What is overfitting? Provide an example.</li>
+<li>What is a metric? How does it differ from "loss"?</li>
+<li>How can pretrained models help?</li>
+<li>What is the "head" of a model?</li>
+<li>What kinds of features do the early layers of a CNN find? How about the later layers?</li>
+<li>Are image models only useful for photos?</li>
+<li>No you can use it for other thins tooWhat is an "architecture"?</li>
+<li>What is segmentation?</li>
+</ol>
+<ol>
+<li>Can we always use a random sample for a validation set? Why or why not?</li>
 </ol>
 <p><em>random sampling is a perfectly fine way to create a validation set. The training set and test set come from roughly the same distribution so your randomly sampled validation set is a good proxy for the test set. Typically when your model improves on your validation set, you'll also see improvements on your test set.</em></p>
 <ol>
-<li>What is overfitting? Provide an example.
-<em>(With training set and validation set measure accuracy)
-If you train for too long, with not enough data, you will see the accuracy of you model start to get worse; this is called overfitting</em>
-<em>Example: If our model does much better on the training set than on the test set, then we're likely overfitting. For example, it would be a big red flag if our model saw 99% accuracy on the training set but only 55% accuracy on the test set.</em></li>
+<li>What is overfitting? Provide an example.</li>
 </ol>
+<p><em>(With training set and validation set measure accuracy)
+If you train for too long, with not enough data, you will see the accuracy of you model start to get worse; this is called overfitting</em>
+<em>Example: If our model does much better on the training set than on the test set, then we're likely overfitting. For example, it would be a big red flag if our model saw 99% accuracy on the training set but only 55% accuracy on the test set.</em></p>
 <ol>
 <li>What is a metric? How does it differ from "loss"?</li>
 </ol>
